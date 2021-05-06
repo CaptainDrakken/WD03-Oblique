@@ -10,3 +10,10 @@ function myFunction() {
       header.classList.remove("sticky");
     }
   }
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
