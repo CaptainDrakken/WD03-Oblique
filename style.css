@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Arvo Header;
+    src: url(font/Arvo-Bold.ttf);
+}
 html {
     background-image: none;
 }
@@ -10,8 +14,8 @@ body {
     max-width: 960px;
     margin: auto;
     text-align: center;
+    font-family: Arvo Header;
     font-size:large;
-    max-height: 50px;
     background-color: lightskyblue;
 }
 .topnav {
