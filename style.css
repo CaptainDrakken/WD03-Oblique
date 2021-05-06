@@ -2,9 +2,6 @@
     font-family: Arvo Header;
     src: url(font/Arvo-Bold.ttf);
 }
-html {
-    background-image: none;
-}
 body {
     margin: 0;
     font-family: Verdana, Tahoma, sans-serif;
