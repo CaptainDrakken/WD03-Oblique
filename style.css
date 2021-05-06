@@ -10,11 +10,12 @@ body {
 .content {
     max-width: 960px;
     margin: 25px auto;
+    padding: 20px;
     background-color: linen;
 }
 .header {
     max-width: 960px;
-    margin: 25px auto;
+    margin: 0px auto 25px;
     text-align: center;
     font-family: Arvo Header;
     font-size: 100px;
