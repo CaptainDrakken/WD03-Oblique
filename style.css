@@ -1,3 +1,6 @@
+html {
+    background-image: none;
+}
 body {
     font-family: Verdana, Tahoma, sans-serif;
 }
@@ -14,7 +17,7 @@ body {
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     color: #2196F3;
     display: block;
 }
@@ -22,8 +25,9 @@ body {
     color: #064579;
 }
 .main {
+    background: #eee;
     margin-left: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 25px; /* Increased text to enable scrolling */
+    font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
 }
 @media screen and (max-height: 450px) {
