@@ -66,6 +66,10 @@ body {
   text-align: center;
   padding: 20px;
 }
+@media screen and (max-width: 400px) {
+  .trainer{width:100px;padding:10px;margin-left: 0px;}
+  .pokemon {padding:10px;}
+}
 .topnav {
     max-width: 960px;
     margin: auto;
