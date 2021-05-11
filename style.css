@@ -50,30 +50,20 @@ body {
     text-shadow: 2px 2px 4px #000000;
 }
 .fight {
-  border-radius: 25px;
   display: flex;
   padding: 10px;
+  height: auto;
 }
-.trainerf {
+.trainer {
   width: 120px;
   margin: 10px;
   text-align: center;
   padding: 20px;
   border-right: 1px solid gray;
 }
-.pokemonf {
-  width: 100px;
+.pokemon {
   text-align: center;
   padding: 20px;
-}
-.boss {
-
-}
-.trainerb {
-  
-}
-.pokemonb {
-
 }
 .topnav {
     max-width: 960px;
