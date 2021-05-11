@@ -2,10 +2,17 @@
     font-family: Arvo Header;
     src: url(font/Arvo-Bold.ttf);
 }
+html { 
+  background-image: url("img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 body {
     margin: 0;
     font-family: Verdana, Tahoma, sans-serif;
-    background-color: lightpink;
+
 }
 .content {
     max-width: 960px;
@@ -40,7 +47,8 @@ body {
     text-align: center;
     font-family: Arvo Header;
     font-size: 50px;
-    background-color: lightskyblue;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
 }
 .topnav {
     max-width: 960px;
@@ -173,3 +181,4 @@ body {
         right: 15px;
     }
 }
+
